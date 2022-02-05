@@ -3,11 +3,10 @@
 string [] arrayM = { "Hello", "2", "world", ":)", "-21", "Sun", "124", "Russia", "USA" };
     int length = arrayM.Length;
     int i = 0;
-    int j = 0;
     while (i < length)
     {
         if (arrayM[i].Length <= 3)
-        arrayK[j] = arrayM[i];
+        Console.WriteLine(arrayM[i]);
         i++;
-        j++;
+        
     }
